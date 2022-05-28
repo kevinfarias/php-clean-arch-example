@@ -1,0 +1,23 @@
+{
+    "name": "kevinfarias/app-php-catalog-video",
+    "description": "App with PHP - Catalog Video",
+    "authors": [
+        {
+            "name": "Kevin Farias",
+            "email": "kevin.farias.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5",
+        "spatie/phpunit-watcher": "^1.23"
+    },
+    "require": {
+        "ramsey/uuid": "^4.3"
+    }
+}
